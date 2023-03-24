@@ -2,7 +2,7 @@ import cart from "./Assets/cart.svg";
 const Carrito = () => {
   return (
     <div>
-      <img src={cart} alt="carrito" />0
+      <img className="cart" src={cart} alt="carrito" />0
     </div>
   );
 };

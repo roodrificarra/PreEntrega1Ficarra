@@ -1,12 +1,15 @@
+import Carrito from "./CartWidget/Cart.Widget";
+
 const Navbar = () => {
   return (
-    <nav>
-      <h3>Rodritech </h3>
+    <nav className="Navbar">
+      <h3 className="brand_name">Rodritech </h3>
       <div>
-        <button>PCS Armadas</button>
-        <button>Placas de Video</button>
-        <button>Procesadores</button>
+        <button className="boton">PCS Armadas</button>
+        <button className="boton">Placas de Video</button>
+        <button className="boton">Procesadores</button>
       </div>
+      <Carrito />
     </nav>
   );
 };
